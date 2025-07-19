@@ -31,9 +31,9 @@
     reverse(nums, 0, n - 1);
     }
    public static void main(String args[]) {
-    int[] arr = {1,2,3,4,5,6,7};
-    int n = 7;
-    int k = 2;
+    int[] arr = {3,7,8,9,10,11};
+    int n = 6;
+    int k = 3;
     rotateToleft(arr, n, k);
     System.out.print("After Rotating the k elements to left ");
     for (int i = 0; i < n; i++)
@@ -44,7 +44,7 @@
     int k1 = 2;
     rotateToRight(arr1, n1, k1);
     System.out.print("After Rotating the k elements to right ");
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n1; i++)
       System.out.print(arr1[i] + " ");
     System.out.println();
   }
